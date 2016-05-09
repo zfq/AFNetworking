@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name = "AFNetworking"
+	s.version  = "3.0"
 	s.description = <<-DESC
 					this is description
 					DESC
