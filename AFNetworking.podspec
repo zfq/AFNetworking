@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 					DESC
 	
 	s.source = { :git => "https://github.com/zfq/AFNetworking" }				
-	s.ios.deployment_target = '7.0'
+	s.ios.deployment_target ~> '7.0'
 	s.requires_arc = true
 	s.source_files = 'AFNetworking/','AFNetworking/*.{h,m}'
 	
